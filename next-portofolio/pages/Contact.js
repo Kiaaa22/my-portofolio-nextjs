@@ -25,7 +25,6 @@ const Contact = () => {
             </textarea>
             <div>
                 <Button link='About' text='Kirim Pesan' />
-                <Link href='/' />
             </div>
         </from>
     </section>
