@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import React from 'react'
 import Button from '../components/Button'
 import Heading from '../components/Heading'
+import Link from 'next/link'
 
 const Contact = () => {
     return (
@@ -13,8 +14,8 @@ const Contact = () => {
         </div>
 
         <from className='flex flex-col gap-8 pl-8'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 '>
-                <input type="text" placeholder='Nama' className='outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3' required />
+            <div className='text-sm grid grid-cols-1 md:grid-cols-2 gap-8 '>
+                <input type="text" placeholder='Nama' className=' outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3' required />
                 <input type="text" placeholder='Email' className='outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3' required />
             </div>
             <input type="text" placeholder='Subjek' className='outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3' required />
@@ -23,7 +24,8 @@ const Contact = () => {
 
             </textarea>
             <div>
-                <Button link='#' text='Kirim Pesan' />
+                <Button link='About' text='Kirim Pesan' />
+                <Link href='/' />
             </div>
         </from>
     </section>

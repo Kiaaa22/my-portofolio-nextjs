@@ -39,7 +39,7 @@ const [nav, setNav] = useState(false)
             <div className='container w-full mx-auto flex justify-between items-center py-4'>
                 <div className=' text-[24px] text-pink-400 px-14 font-semibold'>Kia</div>
 
-                <ul className="hidden md:flex gap-4 justify-between items-center">
+                <ul className="hidden md:flex gap-4 justify-between items-center px-14">
                     <li>
                         <Link href={"/"} className="text-pink-400">
                             Home  
@@ -67,12 +67,7 @@ const [nav, setNav] = useState(false)
                     </li>
                 </ul>
                 
-                <div className="mr-8 md:justify-center md:items-center text-pink-400 hidden md:flex border border-[pink-400] px-4 py-1 hover:bg-pink-400 hover:text-white transition-duration-200">
-                <Link href='#' className=' '>
-                    Download CV
-                </Link>
-                <HiOutlineDownload />
-                </div>
+                
                 <div onClick={() => setNav(!nav)} className="block cursor-pointer md:hidden text-[24px] text-pink-400 pr-4">
                     {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
                 </div>
