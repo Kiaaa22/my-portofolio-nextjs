@@ -1,14 +1,15 @@
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
+
 import Heading from '../components/Heading'
-import Button from '../components/Button'
+import Navbar from '@/components/Navbar'
+
 import { FaBirthdayCake, FaSchool } from 'react-icons/fa'
 import { ImLocation2 } from 'react-icons/im'
 import { BsFillPersonFill } from 'react-icons/bs'
+import { RiWhatsappFill, RiInstagramFill } from 'react-icons/ri'
+import { MdHeight } from 'react-icons/md'
 import Link from 'next/link'
-import Skills from '@/components/Skills'
-import Navbar from '@/components/Navbar'
-import WhatDo from '@/pages/WhatDo'
 
 const About = () => {
   return (
@@ -43,6 +44,11 @@ const About = () => {
             </div>
 
             <div className=" text-black flex gap-4 items-center font-medium text-[19px]">
+              <MdHeight className="text-pink-400 text-[24px]" />
+              <p>TB / BB</p>
+            </div>
+
+            <div className=" text-black flex gap-4 items-center font-medium text-[19px]">
               <FaSchool className="text-pink-400 text-[24px]" />
               <p>Sekolah</p>
             </div>
@@ -50,6 +56,16 @@ const About = () => {
             <div className=" text-black flex gap-4 items-center font-medium text-[19px]">
               <ImLocation2 className="text-pink-400 text-[24px]" />
               <p>Alamat</p>
+            </div>
+
+            <div className=" text-black flex gap-4 items-center font-medium text-[19px]">
+              <RiWhatsappFill className="text-pink-400 text-[24px]" />
+              <p>Whatsapp</p>
+            </div>
+
+            <div className=" text-black flex gap-4 items-center font-medium text-[19px]">
+              <RiInstagramFill className="text-pink-400 text-[24px]" />
+              <p>Instagram</p>
             </div>
           </div>
 
@@ -59,15 +75,21 @@ const About = () => {
             <div>:</div>
             <div>:</div>
             <div>:</div>
+            <div>:</div>
+            <div>:</div>
+            <div>:</div>
             <div></div>
           </div>
 
           <div className="flex flex-col gap-6 text-black text-lg pb-5">
             <div></div>
-            <div>Zaskia Rizky Raichand</div>
+            <div> Zaskia Rizky Raichand </div>
             <div> Kediri, 21 Maret 2006 </div>
+            <div> 156cm / 41kg </div>
             <div> SMK Telkom Malang </div>
             <div> Jl Danau Ranau VII GIF No.03 </div>
+            <div> +62 812-3336-4789 </div>
+            <div> @kiaa.ewww </div>
           </div>
         </div>
       </div>
@@ -82,8 +104,6 @@ const About = () => {
         <p className=" text-gray-00 text-[15px]">
           Aku ingin menjadi Princess Disney
         </p>
-
-        {/* <Button link="#" text="Hire Me" /> */}
       </div>
     </div>
     </>

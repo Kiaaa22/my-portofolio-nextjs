@@ -17,7 +17,7 @@ const Hero = () => {
                     strings: [
                         "Anime",
                         "Anak lucu",
-                        "Anak Ajaib"
+                        "Anak Hebat"
                     ],
                     changeDelay: 3,
                     changeDeleteSpeed: 2,

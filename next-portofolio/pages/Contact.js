@@ -41,7 +41,7 @@ const Contact = () => {
         setPesan('');
         notify();
     });
-  };
+    };
     return (
     <>
     <Navbar />
@@ -51,7 +51,7 @@ const Contact = () => {
         <Heading title="Contact Us" />
         </div>
 
-        <form onSubmit={handleSubmit} className='flex flex-col gap-8 pl-8'>
+        <form onSubmit={handleSubmit} className='flex flex-col gap-8 pl-8 pr-8'>
             <div className='text-sm grid grid-cols-1 md:grid-cols-2 gap-8 '>
                 <input type="text" placeholder='Nama' className=' outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3'  onChange={(e) => setNama(e.target.value)} value={nama} required />
                 <input type="text" placeholder='Email' className='outline-pink-400 border-gray-400 border rounded-[5px] 4px py-2 w-[100%] pl-3' onChange={(e) => setEmail(e.target.value)} value={email} required />
@@ -62,7 +62,7 @@ const Contact = () => {
 
             </textarea>
             <div>
-                <button type='submit' className='btn bg-pink-400 px-8 py-3 rounded-lg'>Kirim</button>
+                <button type='submit' className='btn bg-pink-400 px-8 py-3 rounded-lg'>Kirim Pesan</button>
             </div>
         </form>
     </section>
