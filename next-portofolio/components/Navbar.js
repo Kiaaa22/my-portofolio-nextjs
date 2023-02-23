@@ -18,6 +18,11 @@ const [nav, setNav] = useState(false)
             link: 'About'
         },
         {
+            id: 3,
+            name: 'skills',
+            link: 'WhatDo'
+        },
+        {
             id: 4,
             name: "creation",
             link: 'Creation'
@@ -43,6 +48,11 @@ const [nav, setNav] = useState(false)
                     <li>
                         <Link href={"About"} className="text-pink-400">
                             About Me
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href={"WhatDo"} className="text-pink-400">
+                            Skills
                         </Link>
                     </li>
                     <li>

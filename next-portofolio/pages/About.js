@@ -8,7 +8,7 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import Link from 'next/link'
 import Skills from '@/components/Skills'
 import Navbar from '@/components/Navbar'
-import WhatDo from '@/components/WhatDo'
+import WhatDo from '@/pages/WhatDo'
 
 const About = () => {
   return (
@@ -86,7 +86,6 @@ const About = () => {
         {/* <Button link="#" text="Hire Me" /> */}
       </div>
     </div>
-    <WhatDo />
     </>
   )
 }
