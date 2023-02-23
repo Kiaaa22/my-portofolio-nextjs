@@ -14,70 +14,35 @@ const Creation = () => {
 
         <div className='grid grid-cols-3 gap-4 ml-8'>
             <div className='row-span-2 relative group'>
-                <Image src="/oc full.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' /> 
+                <Image src="/oc full.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' /> 
             </div>
 
             <div className='relative group'>
-                <Image src="/oc half happy.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Half Body Happy
-                </div>
+                <Image src="/oc half happy.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/oc half sad.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Half Body Cry
-                </div>
+                <Image src="/oc half sad.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/ayam.png" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Blender Ayam
-                </div>
+                <Image src="/ayam.png" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/ayo masak.png" width="1000" height="100" alt="" className='border-4 border-zinc-300' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Ayo masak
-                </div>
+                <Image src="/ayo masak.png" width="1000" height="100" alt="" className='border-4 border-zinc-300 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/padoru.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Chibi Padoru
-                </div>
+                <Image src="/padoru.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/project p5.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Project P5
-                </div>
+                <Image src="/project p5.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
             <div className='relative group'>
-                <Image src="/oc sun flower.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200' />
-                <div className='bg-black absolute w-[100%] h-[100%] top-0
-                opacity-0 transition duration-500 group:hover:opacity-100
-                grid place-items-center text-white'>
-                    Original Character
-                </div>
+                <Image src="/oc sun flower.jpeg" width="1000" height="100" alt="" className='border-4 border-zinc-200 rounded-3xl' />
             </div>
 
         </div>
