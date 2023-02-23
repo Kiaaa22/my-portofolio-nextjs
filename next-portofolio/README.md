@@ -4,9 +4,6 @@
 
 Kenalin niii aku Kiaa
 
-## Documentation
-
-
 
 ## Deploy on Vercel
 
