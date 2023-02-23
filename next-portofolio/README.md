@@ -1,4 +1,4 @@
-### Portofolio Next JS
+# Portofolio Next JS
 
 ## Getting Started
 
