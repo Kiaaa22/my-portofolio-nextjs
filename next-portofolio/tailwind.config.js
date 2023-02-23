@@ -6,9 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {},
-      fontFamily: {
-        signature: ["Shantell+Sans"]
-      }
   },
   plugins: [],
 }
